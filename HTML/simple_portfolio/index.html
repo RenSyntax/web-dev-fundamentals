@@ -1,40 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
-<head>
-    <title>My Portfolio</title>
-</head>
-
-<body>
-    <h1 align="center">
-        Portfolio
-    </h1>
+  <head>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header align="center">
+      <pre><big><a href="./index.html" target="_blank">🔺 Home</a>  <a href="./aboutMe.html">💡 About Me</a>  <a href="./education.html">🎒 Education</a>  <a href="./projects.html">📦 Projects</a>  <a href="./fineMe">🔎 Find Me On</a>
+    </big></pre>
+    </header>
     <hr />
-    <a href="https://github.com/RenSyntax"> <img src="./github_logo.png" alt="Github" height="200"></a>
-    <h3 align="left"><a href="https://github.com/RenSyntax">@RenSyntax</a></h3>
-    <hr />
-    <h2>💡 About Me</h2>
-    <p>Hey! I am mahesh, a first year college freshman, learning to code day by day...</p>
+    <main>
+      <a href="https://github.com/RenSyntax"
+        ><img
+          src="https://imgs.search.brave.com/rVrKnhmXZNppaGnOsnl2MW8_GjkGcv4zMsRn_b16-z0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvcHJl/dmlld3MvMDE2Lzgz/My84NzIvbm9uXzJ4/L2dpdGh1Yi1sb2dv/LWdpdC1odWItaWNv/bi1vbi13aGl0ZS1i/YWNrZ3JvdW5kLWZy/ZWUtdmVjdG9yLmpw/Zw"
+          alt="Github Profile Logo"
+          height="200"
+      /></a>
+      <h1 align="left"><b>✨ RenSyntax</b></h1>
+      <pre><big>
+Hey! My name is <b>Mahesh</b>, go by username RenSyntax online.
+I am a first year college student, currently studing fundamentals of Programming. 
+Trying to maintain a consitent daily coding commits..... 
+           
+If you are intrested in talking about programming or having a casual chat,
+then contact me on discord.
+<a href="./fineme">Find Me Page</a></big></pre>
+      <br />
+      <hr />
+      <h1>🔖 Feedback</h1>
+      <pre><big>
+If you have some Feedback regarding my Projects or thoughts on how i can
+improve it. Then i would really appritiate Your valuable Feedback... 
+It means a lot.. 
+      </big></pre>
+      <form action="./feedback.txt">
+        <h3>Feedback of which Platform ?</h3>
+        <input
+          type="checkbox"
+          value="github"
+          name="Platform"
+          class="platform"
+          id="P1"
+        /><label for="P1">Github</label>
+        <input
+          type="checkbox"
+          value="linkedin"
+          name="Platform"
+          class="platform"
+          id="P2"
+        /><label for="P2">LinkedIn</label>
+        <input
+          type="checkbox"
+          value="leetcode"
+          name="Platform"
+          class="platform"
+          id="P3"
+        /><label for="P3">LeetCode</label>
+        <input
+          type="checkbox"
+          value="dev.to"
+          name="Platform"
+          class="platform"
+          id="P4"
+        /><label for="P4">Dev.to</label>
+        <br />
+        <h3>Your Feedback:</h3>
+        <textarea
+          name="Feedback"
+          id="F1"
+          class="feedback"
+          placeholder="type your feedback here..."
+          rows="8"
+          cols="80"
+        ></textarea>
+        <br />
+        <input type="submit" value="submit" />
+      </form>
+    </main>
     <br />
-    <h2>🎒 Education</h2>
-    <p><b>College of Inovation and Technology</b></p>
-    <br />
-    <h2>📦 Projects</h2>
-    <pre><b>
-            - Project 1̥
-            - Project 2
-            -Project 3
-        </b></pre>
-    <h2>🔎 Find me On</h2>
     <hr />
-    <p align="center">
-        <a href="https://github.com/RenSyntax">Github</a>
-        <a href="https://linkedin.com/r/rensyntax">Linkedin</a>
-        <a href="https://leetcode.com/RenSyntax">LeetCode</a>
-        <a href="https://x.com/RenSyntax">X/Twitter</a>
-    </p>
-    <hr />
-    Thank you for reading, have a nice day ahead!✨
-</body>
-
+    <footer>
+      <p><b>Thank you for reading, Hope you have a nice day ahead! ✨</b></p>
+    </footer>
+  </body>
 </html>
